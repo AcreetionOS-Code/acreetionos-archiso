@@ -22,6 +22,6 @@ jobs:
 
       - name: Push to GitLab
         run: |
-          git remote add gitlab "ssh://git@gitlab.acreetionos.org:2499/acreetionos-code/AcreetionOS__archiso.git"
+          git remote add gitlab "ssh://git@gitlab.acreetionos.org:2499/acreetionos-code/acreetionos-archiso.git"
           git push --force --all gitlab
           git push --force --tags gitlab
